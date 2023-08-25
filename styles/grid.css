@@ -8,10 +8,29 @@
     text-align: center;
     margin-top: 25px;
     position: inherit;
+    
 }
+
+
 .titulo{
     font-size: 10px;
-    color: rgb(146, 83, 204);
+    color:#4e6b66;
     margin-bottom: 7px;
     text-align: center;
+}
+@media screen and (min-width:1024px) {
+ .Imagem{
+    border: 3px solid black;
+    width: 180px!important;
+    height: 150px!important;
+  
+ }
+ .titulo{
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    color: black;
+ }
+ .gridimg{
+    background-color: #434d53;
+ }
 }
