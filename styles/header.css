@@ -68,4 +68,14 @@
         color: rgb(73, 44, 240) (43, 226, 101);
         display:block;
 }
+.opcoes{
+    display: flex;
+     } 
+     .opcoes__item{
+padding: 0 lem;
+     }
+     .opcoes__link{
+        text-decoration: none;
+        color: var(--preto);
+     }
 }
