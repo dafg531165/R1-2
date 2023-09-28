@@ -63,5 +63,25 @@
        font-family: var(--font-secundaria);
        color: rgb(43, 226, 101);
        display: block;
-   }  
+   } 
+   .opçoes{
+    padding: 0 1em;
+   }
+    .opçoes__link{
+        text-decoration: none;
+        color: var(--preto);
+   }
+   .container__imagem--transaparente{
+    display: none;
+   }
+   .cabecalho__menu-hamburguer{
+    display: none;
+   }
+   .opçoes__botao:checked~.lista-menu{
+    display: block;
+   }
+   .opçoes__botao{
+    display: none;
+   }
+   
 }

@@ -78,4 +78,16 @@ padding: 0 lem;
         text-decoration: none;
         color: var(--preto);
      }
+ .container__imagem--transaparente{
+    display: none;
+   }
+   .cabecalho__menu-hamburguer{
+    display: none;
+   }
+   .opçoes__botao:checked~.lista-menu{
+    display: block;
+   }
+   .opçoes__botao{
+    display: none;
+   }
 }
