@@ -19,8 +19,11 @@
     display: flex;
     align-items: center;
 }
-.container__imagem{
+.container__imagem{ 
     padding: 1em;
+}
+.container_imagem{
+    display: none;
 }
 
 .lista-menu{
@@ -68,13 +71,14 @@
         color: rgb(73, 44, 240) (43, 226, 101);
         display:block;
 }
-.opcoes{
+.opçoes{
     display: flex;
      } 
-     .opcoes__item{
+     .opçoes__item{
 padding: 0 lem;
+list-style: none
      }
-     .opcoes__link{
+     .opçoes__link{
         text-decoration: none;
         color: var(--preto);
      }
