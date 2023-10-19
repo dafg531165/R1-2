@@ -64,7 +64,7 @@
        color: rgb(43, 226, 101);
        display: block;
    } 
-   .opçoes{
+   .opcoes{
     padding: 0 1em;
    }
     .opçoes__link{
@@ -83,5 +83,7 @@
    .opçoes__botao{
     display: none;
    }
-   
+   .opçoes__item{
+    list-style: n
+   }
 }
